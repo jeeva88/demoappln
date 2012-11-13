@@ -1,4 +1,5 @@
 Demoappln::Application.routes.draw do
+  get 'rails/info/properties'
   resources :microposts
 
   resources :users
